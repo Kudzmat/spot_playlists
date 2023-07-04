@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Vibe Check
+{% endblock %}
+
+{% block main %}
+<div class="container mt-5">
+  <div class="row">
+      <div class="col">
+        <img src="static/images/music.png" alt="Banner Image" class="img-fluid">
+      </div>
+    </div>
+    <div class="row mt-3">
+      <div class="col">
+        <!-- Content goes here -->
+        <h1>Welcome To Vibe Check</h1>
+        <h2>Enter 5 Artists Whose Sound Fits Your Current Vibe</h2>
+      </div>
+    </div>
+
+    <div class="container-md">
+<form method="POST">
+    {{ form.csrf_token }}
+    <p>
+        {{ form.artist1.label() }}
+        {{ form.artist1() }}
+    </p>
+     <p>
+        {{ form.artist2.label() }}
+        {{ form.artist2() }}
+    </p>
+     <p>
+        {{ form.artist3.label() }}
+        {{ form.artist3() }}
+    </p>
+     <p>
+        {{ form.artist4.label() }}
+        {{ form.artist4() }}
+    </p>
+     <p>
+        {{ form.artist5.label() }}
+        {{ form.artist5() }}
+    </p>
+    <button class="text-center btn btn-primary btn-crimson">{{ form.submit() }}</button>
+</form>
+</div>
+  </div>
+{% endblock %}
