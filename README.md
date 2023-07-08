@@ -1,7 +1,7 @@
 # Spotify Playlists
 
 This application allows users to interact with Spotify's API to retrieve and manipulate music data. There's so much music available on
-Spotify and this can sometimes be overwhelming. This app allows you to find music based on what you're feeling at the moment and curate the perfect vibe playlist. Spotify Playlists is the lite version of Vinyl Yard (https://github.com/Kudzmat/VinylYard), which only contains the playlist features.
+Spotify and this can sometimes be overwhelming. This app allows you to find music based on what you're feeling at the moment and curate the perfect vibe playlist. Spotify Playlists is the lite version of Vinyl Yard (https://github.com/Kudzmat/VinylYard).
 
 <img width="1470" alt="Screen Shot 2023-05-26 at 4 42 28 PM" src="https://github.com/Kudzmat/spot_playlists/assets/65554208/31cce9a2-2ece-4742-bdd5-4942a2171e07">
 
